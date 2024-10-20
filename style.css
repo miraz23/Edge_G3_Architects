@@ -38,6 +38,11 @@ header nav{
 }
 
 @media (max-width: 992px){
+
+    .nav-logo h1{
+        font-size: 32px;
+    }
+
     header nav{
         display: flex;
         flex-direction: column;
@@ -47,7 +52,7 @@ header nav{
         gap: 20px;
         padding: 20px 0;
         justify-content: center;
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 
@@ -69,7 +74,7 @@ header nav{
 }
 
 .banner p{
-    padding: 20px;
+    padding: 30px;
     font-size: 20px;
     color: #727272;
 }
@@ -112,7 +117,7 @@ header nav{
     }
 
     .banner-image img{
-        width: 400px;
+        width: 350px;
         
     }
 }
@@ -190,7 +195,7 @@ div img{
 }
 
 .team-content p{
-    padding: 20px 0;
+    padding: 30px 0;
     font-size: 18px;
     color: #727272;
 }
@@ -473,10 +478,11 @@ div img{
     
     .facts-container {
         flex-direction: column;
+        padding: 0;
     }
 
     .fact-box {
-        width: 80%;
+        margin: 0 auto;
     }
 }
 
@@ -525,14 +531,13 @@ div img{
     .sponsors{
         text-align: center;
     }
-
     
     .sponsors-container {
         flex-direction: column;
     }
 
     .sponsors-container img {
-        width: 60px;
+        width: 80px;
     }
 }
 
